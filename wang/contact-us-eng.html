@@ -5,9 +5,25 @@
 	<title></title>
 	<link  type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 	<link  type="text/css" href="css/main.css" rel="stylesheet" />
+	<style>
+	#body{
+		padding-bottom: 30px;    /* height of footer */
+	}
+	.footer{
+		height: 30px; 
+		width:100%;
+		position: absolute;
+		left: 0;
+		bottom: 0; 
+	}
+	</style>
 </head>
 <body>
+
 	<div class="container">
+		<!-- company logo -->
+		<div style="padding: 10px;"><img src="i/company-logo.jpg" style="width: 150px;"></div>
+
 		<!-- NAVBAR -->
 		<div>
 
@@ -20,7 +36,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">Qin Wang</a>
+						<a class="navbar-brand" href="index.html" style="color: #ffffff;"><b>Qin Wang</b></a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse" style="margin-right: 30px;">
 						<ul class="nav navbar-nav">
@@ -39,12 +55,57 @@
 				</div>
 			</nav>
 
-			<h1>Contact Us</h1>
+	<!-- Begin Body -->
 
-			<p>My first paragraph asfdas safdasf sfasf dasdfasfasd sadafasfasfd ssdfsjasd
-				as sfasdfas sdf asdfasf sdfsaf sfas sdf. 中文 ni hao hahaha sdfsa  sffsdf
-				asdfsaf asafdsaini hao ha
-				sfasfsa sddfas rt 加 是否 你 </p>
+	<div class="row">
+  			<div class="col-md-3" id="leftCol">
+              	
+				<div> 
+              	<ul class="nav nav-stacked" id="sidebar">
+                  <li><a href="#sec1">Section 1</a></li>
+                  <li><a href="#sec2">Section 2</a></li>
+                  <li><a href="#sec3">Section 3</a></li>
+                  <li><a href="#sec4">Section 4</a></li>
+              	</ul>
+  				</div>
+
+      		</div>  
+
+      		<div class="col-md-9">
+              	<h2 id="sec0">Content</h2>
+                At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
+              	find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.
+              	
+            
+           
+              	<hr class="col-md-11" style="margin-right: 30px">
+              	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
+              	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
+              	
+              
+              
+              	<h2 id="sec1">Content</h2>
+              	<p>
+                Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+              	</p>
+              	
+              
+              	
+              	
+              	
+      		</div> 
+  	</div>
+
+			
 			</div> <!-- container -->
 
 
@@ -54,12 +115,7 @@
 				</div>
 			</footer>
 
-			<script type="text/javascript" src="jquery/jquery.min.js"></script> 
+			<script type="text/javascript" src="js/jquery.min.js"></script> 
 			<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> 
-			<script type="text/javascript">
-			jQuery(document).ready(function() {
-				$('#tabs').tab();
-			});
-			</script> 
 		</body>
 		</html>

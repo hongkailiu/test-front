@@ -1,0 +1,13 @@
+html, body {
+	height: 100%;
+}
+#wrapper{
+	min-height: 100%;
+	position:relative;
+}
+#body{
+	padding-bottom: 30px;    
+}
+.imglang {
+	width: 20px;
+}
